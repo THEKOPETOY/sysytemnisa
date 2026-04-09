@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tingog Mo, Aksyon Ko - Home</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="index.php">
+                <i class="bi bi-megaphone-fill me-2"></i>Tingog Mo, Aksyon Ko
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="submit_form.php"><i class="bi bi-plus-circle me-1"></i>Submit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="updates.php"><i class="bi bi-eye me-1"></i>Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-warning btn-sm ms-2" href="admin.php">Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="mb-4">🗣️ Tingog Mo, Aksyon Ko!</h1>
+            <p class="lead mb-5">"Your voice matters. Share your suggestions, concerns, and ideas to improve our community."</p>
+            <div class="d-grid gap-3 col-8 col-lg-6 mx-auto">
+                <a href="submit_form.php" class="btn btn-primary btn-lg">
+                    <i class="bi bi-plus-circle me-2"></i>Submit Suggestion
+                </a>
+                <a href="updates.php" class="btn btn-outline-primary btn-lg">
+                    <i class="bi bi-eye me-2"></i>View Updates
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
